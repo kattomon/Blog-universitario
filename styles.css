@@ -1,0 +1,104 @@
+body    {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F3F1EA;
+    color:  #23302D;
+    max-width: 900px;
+    margin: 48px auto;
+    padding: 0 24px;
+}
+
+h1  {
+    color: #21453F;
+}
+
+body.portada {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: #fafaf7;
+    color: #26323a;
+}
+
+.portada .barra,
+.portada main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.portada .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #26323a;
+}
+
+.portada .nombre {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.portada nav {
+    display: flex;
+    gap: 20px;
+}
+
+.portada a {
+    color: #176275;
+}
+
+.portada .intro {
+    padding: 55px 0 40px;
+}
+
+.portada .etiqueta {
+    color: #d4543b;
+    font-weight: bold;
+}
+
+.portada h1 {
+    color: #26323a;
+    font-size: clamp(38px, 6vw, 64px);
+    line-height: 1.1;
+    margin: 12px 0 20px;
+}
+
+.portada h1 span {
+    color: #d4543b;
+}
+
+.portada .bloque {
+    padding: 28px 0;
+    border-top: 1px solid #cbd4d5;
+}
+
+.portada .lista-ramos {
+    list-style: none;
+    padding: 0;
+}
+
+.portada .lista-ramos li {
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    gap: 15px;
+    padding: 14px 0;
+    border-top: 1px solid #dce2e2;
+}
+
+.portada .lista-ramos li span:first-child {
+    color: #d4543b;
+    font-weight: bold;
+}
+
+.portada .pie {
+    max-width: 960px;
+    margin: 36px auto 0;
+    padding: 18px 24px;
+    border-top: 1px solid #dce2e2;
+    color: #5b6870;
+    font-size: 14px;
+}
